@@ -39,6 +39,7 @@ export const signUp = ({ email, password }) => {
         type: SIGN_UP_SUCCESS,
         token: data.idToken,
         userId: data.localId,
+        email: data.email
       });
     } catch (error) {
       dispatch({
@@ -66,7 +67,7 @@ export const signIn = ({ email, password }) => {
       });
 
       const data = await response.json();
-
+      
       if (data.error) {
         dispatch({
           type: SIGN_IN_FAILURE,
@@ -77,6 +78,7 @@ export const signIn = ({ email, password }) => {
           type: SIGN_IN_SUCCESS,
           token: data.idToken,
           userId: data.localId,
+          email: data.email
         });
       }
     } catch (error) {

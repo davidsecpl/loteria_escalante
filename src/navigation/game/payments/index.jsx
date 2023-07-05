@@ -6,7 +6,13 @@ const Stack = createNativeStackNavigator();
 const PaymentsNavigator = () => {
   return (
     <Stack.Navigator initialRouteName="Payment">
-      <Stack.Screen name="Payment" component={Payments} />
+      <Stack.Screen
+        name="Payment"
+        options={{
+          headerShown: false,
+        }}
+        component={Payments}
+      />
     </Stack.Navigator>
   );
 };

@@ -9,13 +9,11 @@ export const styles = StyleSheet.create({
   },
   label: {
     fontSize: 14,
-   // fontFamily: "Inter-Regular",
-    paddingVertical: 5,
+    marginVertical: 5,
     color: COLORS.text,
   },
   subLabel: {
-    fontSize: 12,
-    //fontFamily: "Inter-Regular",
+    fontSize: 12,   
     paddingVertical: 5,
     color: COLORS.text,
   },

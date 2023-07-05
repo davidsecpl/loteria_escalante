@@ -157,6 +157,7 @@ const Loteria = () => {
       </Card>
 
       <Card style={styles.cardContainer}>
+      <Title title="Juega marcando 6 números:" />
         <Menu
           lista={menuGameTop}
           color={theme.colors.buttonGame}

@@ -1,6 +1,6 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet } from 'react-native';
 
-import { COLORS } from "../../constants";
+import { COLORS } from '../../constants';
 
 export const styles = StyleSheet.create({
   container: {
@@ -10,8 +10,7 @@ export const styles = StyleSheet.create({
     fontSize: 13,
     borderBottomColor: COLORS.primary,
     borderBottomWidth: 1,
-    width: "90%",
-   // fontFamily: "Inter-Regular",
+    width: '90%',
     color: COLORS.text,
     paddingVertical: 5,
   },
@@ -21,7 +20,6 @@ export const styles = StyleSheet.create({
   },
   errorMessage: {
     fontSize: 12,
-    //fontFamily: "Inter-Regular",
     paddingVertical: 5,
     color: COLORS.brightRed,
   },

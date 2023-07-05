@@ -5,7 +5,7 @@ export const styles = StyleSheet.create({
         justifyContent: 'center'
     },
     subtitle:{
-        fontSize:20,
+        fontSize:18,
         fontWeight:"bold",
         fontStyle:"italic"
     },

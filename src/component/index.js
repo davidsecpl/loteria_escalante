@@ -7,3 +7,6 @@ export { default as Message } from './header/message/index';
 export { default as Logo } from './header/logo/index';
 export { default as Card } from './card/index';
 export { default as Input } from "./input/index";
+export {default as ImageSelector} from './image-selector';
+export {default as LocationSelector} from './location-selector';
+export {default as MapPreview} from './map-preview';

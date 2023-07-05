@@ -7,7 +7,7 @@ export const styles = StyleSheet.create({
     },
     message:{
         color: theme.colors.headerMessage,
-        fontSize:15,
+        fontSize:13,
         fontWeight:"bold",
         fontStyle:"italic"
     }
